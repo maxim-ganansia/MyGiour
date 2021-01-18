@@ -39,7 +39,19 @@ function App() {
         <ReactBootStrap.Navbar bg="dark" variant="dark">
           <ReactBootStrap.Navbar.Brand href="#home">MyGiour</ReactBootStrap.Navbar.Brand>
           <Link className="navbar-li " to="/">Home  </Link>
-          <ReactBootStrap.NavDropdown className="drop-list" title="Les Parashiots" id="basic-nav-dropdown">
+          <ReactBootStrap.NavDropdown className="drop-list" title="Les Fetes" id="basic-nav-dropdown">
+            <ReactBootStrap.NavDropdown.Divider />
+            <p className="Drop-title">TICHRI</p>
+            <Link className="navbar-li-drop" to="/RochHachana">Roch Hachana</Link>
+            <Link className="navbar-li-drop" to="/Kippour">Kippour</Link>
+            <Link className="navbar-li-drop" to="/Souccot">Souccot</Link>
+            <ReactBootStrap.NavDropdown.Divider />
+            <p className="Drop-title">CHESHVAN</p>
+            <ReactBootStrap.NavDropdown.Divider />
+            <p className="Drop-title">KISLEV</p>
+            <Link className="navbar-li-drop" to="/Hannoukah">Hannoukah </Link>
+          </ReactBootStrap.NavDropdown>
+          {/* <ReactBootStrap.NavDropdown className="drop-list" title="Les Parashiots" id="basic-nav-dropdown">
             <ReactBootStrap.NavDropdown.Divider />
             <p className="Drop-title">SEFER BERESHIT</p>
             <ReactBootStrap.NavDropdown.Divider />
@@ -110,25 +122,29 @@ function App() {
             <Link className="navbar-li-drop" to="/Haazinou">Haazinou </Link>
             <Link className="navbar-li-drop" to="/VezotHabra'ha">Vezot habra'ha </Link>
 
-          </ReactBootStrap.NavDropdown>
-          <ReactBootStrap.NavDropdown className="drop-list" title="Les Fetes" id="basic-nav-dropdown">
-          <ReactBootStrap.NavDropdown.Divider />
-            <p className="Drop-title">TICHRI</p>
-            <Link className="navbar-li-drop" to="/RochHachana">Roch Hachana</Link>
-            <Link className="navbar-li-drop" to="/Kippour">Kippour</Link>
-            <Link className="navbar-li-drop" to="/Souccot">Souccot</Link>
-            <ReactBootStrap.NavDropdown.Divider />
-            <p className="Drop-title">CHESHVAN</p>
-            <ReactBootStrap.NavDropdown.Divider />
-            <p className="Drop-title">KISLEV</p>
-            <Link className="navbar-li-drop" to="/Hannoukah">Hannoukah </Link>
-          </ReactBootStrap.NavDropdown>
+          </ReactBootStrap.NavDropdown> */}
         </ReactBootStrap.Navbar>
         <Switch>
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route path="/Bereshit">
+          <Route path="/RochHachana">
+            <RochHachana />
+            <QuizzRochHachana />
+          </Route>
+          <Route path="/Kippour">
+            <Kippour />
+            <QuizzKippour />
+          </Route>
+          <Route path="/Souccot">
+            <Souccot />
+            <QuizzSouccot />
+          </Route>
+          <Route path="/Hannoukah">
+            <Hannoukah />
+            <QuizzHannoukah />
+          </Route>
+          {/* <Route path="/Bereshit">
             <Bereshit />
           </Route>
           <Route path="/Noah">
@@ -163,25 +179,7 @@ function App() {
           </Route>
           <Route path="/Vayekhi">
             <Vayekhi/>
-          </Route>
-
-          <Route path="/RochHachana">
-            <RochHachana/>
-            <QuizzRochHachana/>
-          </Route>
-          <Route path="/Kippour">
-            <Kippour/>
-            <QuizzKippour/>
-          </Route>
-          <Route path="/Souccot">
-            <Souccot/>
-            <QuizzSouccot/>
-          </Route>
-
-          <Route path="/Hannoukah">
-            <Hannoukah />
-            <QuizzHannoukah/>
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </div>
