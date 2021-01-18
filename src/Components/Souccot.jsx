@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css'
+import PhotoLoulav from '/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/Les4especes.png'
 
 class Souccot extends React.Component {
     render() {
@@ -49,6 +50,102 @@ class Souccot extends React.Component {
                             aussi appelée “HAG HAASSIF”, la fête de la récolte, car elle marque la fin du
                             cycle agricole annuel.
                             </p>
+                        </div>
+                    </div>
+                    <div className="card-souccot-three">
+                        <h1 className="titre-construction-souccot">Rappel Historique</h1>
+                        <p className="text-vayikra">"Dans les Souccot vous habiterez pendant sept jours, <br />
+                                 tout citoyen en  Israël demeurera dans les Souccot. Afin que vos générations <br />
+                                 achent que dans les Souccot, J’ai fait habiter les Bné Israël, quand Je les <br />
+                                 ai fait sortir du pays d’Egypte, Je suis Hachem votre D.ieu".<br />
+                            <i>(Vayikra 23, 42-43)</i><br /></p>
+                        <p className="text-historique">La fête de Souccot célèbre dans la joie l’assistance divine reçue par les Bné Israël dans le désert, après la sortie d’Egypte.
+                                Des nuées féériques et prodigieuses les accompagnèrent et les entourèrent pour les protéger de tout mal. <br />
+                                Ils campèrent également dans des cabanes jusqu’à leur arrivée en Israël.<br />
+                                Ces miracles nous montrent le dévoilement spécial d’une relation d’amour entre D.ieu et Son peuple. <br />
+                                En quittant l’Egypte, pour aller dans le désert, ils ont fait preuve d’une foi inébranlable et en retour, ils purent recevoir tout ce dont ils avaient besoin.<br />
+                                Souccot commence le 15 Tichri et dure sept jours, en Israël et huit, partout ailleurs dans le monde.</p>
+                    </div>
+                    <div className="card-souccot-three">
+                        <h1 className="titre-construction-souccot">Construction de la Souccah</h1>
+                        <div className="souccah-text-picture-div">
+                            <div className="construction-text-div">
+                                <h1 className="titre-souccah-construction">Pour être valable (cachère) :</h1>
+                                <p className="construction-text">
+                                    - la Soucca doit se trouver sous la voûte du ciel et être recouverte de branchage, roseaux ou herbes. <br />
+                                    - La souccah doit avoir 70 cm de long sur 70 cm de large et 1 mètre de hauteur minimum. <br />
+                                    - La souccah doit avoir au minimum 3 murs (Dofen) et qu'ils soient fixes, ne bougent pas. <br />
+                                    - Afin d’honorer ce lieu de fête, on a coutume de décorer joliment l’intérieur avec des images, dessins ou objets.<br />
+                                    - Nous devons faire attention à l’emplacement (l’endroit ne doit pas avoir de mauvaises odeurs comme par exemple à coté de poubelles …)<br /><br /><br />
+                                </p>
+                                <h1 className="titre-souccah-construction">S'assoire dans la Souccah</h1>
+                                <p className="construction-text">
+                                    Depuis le 1er soir de fête et pendant toute la semaine, chaque instant dans la Soucca est une Mitsva !
+                                    Toute la famille y mangera tous les repas (obligation seulement pour les hommes). <br />
+                                    Vivre dans la souccah nous permet de montrer notre attachement à D’ et notre confiance en D’.<br />
+                                    Et la coutume est d’y recevoir des invités.  <br />
+                                    Nous recevons également les invités spéciaux (les Housh Pizims):
+                                    <ul>
+                                        <li>Le premier soir : Avraham Avinous (avec les 6 autres)</li>
+                                        <li>Le 2eme soir : Itshak (avec les 6 autres)</li>
+                                        <li>Le 3eme soir : Yaakov (avec les 6 autres)</li>
+                                        <li>Le 4eme soir : Yossef (avec les 6 autres)</li>
+                                        <li>Le 5eme soir : Moshé (avec les 6 autres)</li>
+                                        <li>Le 6eme soir : Aaron HaCohen (avec les 6 autres)</li>
+                                        <li>Le 7eme soir : David Hamelekh (avec les 6 autres)</li>
+
+                                    </ul>
+                                    - Si cela est possible, les hommes ont aussi l’obligation d’y dormir.<br />
+                                    - La mitsvah est obligatoire le premier jour de Souccot.<br />
+                                    - Si on ne peux pas manger sous la souccah (en raison d'intempérie par exemple), nous aurons le droit de manger en dehors de la souccah tout aliments excepté du <b>Motsi</b> <i>(Pain)</i> ou <b>Mezonot</b> <i>(biscuits, pates ...).</i><br /><br />
+                                    - Pour la braha, on fait nétilat yadaiim puis on fait motsi et ensuite la prière : <b>Barouh ata … Lichev ba souccah </b>
+                                </p>
+                            </div>
+                            <div className="video-souccah-div">
+                                <iframe className="video-construction" width="560" height="335" src="https://www.youtube.com/embed/_HM2kFnRwhE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe className="video-noam-souccot" width="560" height="335" src="https://www.youtube.com/embed/uesnU9jAyw4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card-souccot-four">
+                        <h1 className="titre-les4especes">Les 4 espèces</h1>
+                        <img className="photo-loulav" src={PhotoLoulav} alt="" />
+                        <div className="div-text-4especes">
+                            <div className="video-loulav">
+                                <iframe className="video-loulav-one" width="560" height="335" src="https://www.youtube.com/embed/9__RS1kfPfY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe className="video-loulav-two" width="560" height="335" src="https://www.youtube.com/embed/h7xepd5ihuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div className="text-loulav">
+                                <h1 className="titre-souccah-construction">Arbaa Taminim <i>(4especes)</i></h1>
+                                <p className="text-4especes">
+                                    <b>Chaque espèce représente une catégorie de Juif</b><br />
+                                    <i>Le fait que l'espèce soit consommable représente les mitsvots<br />
+                                    Le fait que l'espèce aie une odeur représente la Torah</i>
+                                    <ul>
+                                        <li><b>Le Etrog : </b> Le Etrog est consommable et a une odeur.<br />
+                                            <i>Le Etrog représente donc les juifs qui pratiquent Torah et Mitsvot</i> </li>
+                                        <li><b>Le Loulav : </b> Le Loulav est consommable mais n'a pas d'odeur<br />
+                                            <i>Le Loulav représente donc les juifs qui n'étudient pas la Torah mais qui font les Mitsvot</i> </li>
+                                        <li><b>La Hadass : </b> La Hadass n'est pas consommable mais a une très bonne odeur<br />
+                                            <i>La Hadass représente donc les juifs qui étudient la Torah mais qui ne font pas les Mitsvot</i> </li>
+                                        <li><b>La Arava : </b> La Arava n'est pas consommable et n'a pas d'odeur<br />
+                                            <i>La Arava représente donc les juifs qui n'étudient pas la Torah et qui ne font pas les Mitsvot</i> </li>
+                                    </ul>
+                                    Nous allons donc réunir ces 4 espèces et faire la bénédiction car on rappelle à Hakadosh Barouh Hou et a sois-même que notre force réside dans l'union. <br />
+                                    Nous allons les attacher ensemble. Nous devons préparer notre Loulav à l'approche de Souccot.<br />
+                                    <ul>
+                                        <li>On met le Loulav au milieu.<br /></li>
+                                        <li>Des deux cotés nous allons mettre la Hadass et la Arava </li>
+                                        <li>Le Etrog dans l'autre main.<br /></li>
+                                        <li>Nous faisons alors la Braha :<br />
+                                        <b>"Baroukh Ata Ado-naï Elo-hénou Mélèkh Ha’olam Achèr Kidéchanou Bémitsvotav Vétsivanou ‘Al Nétilat Loulav’"</b>
+                                        Le premier jour de Souccot, on ajoute : <b>"Baroukh Ata Ado-naï Elo-hénou Mélèkh Ha’olam Chéhé’héyanou Vékiyémanou Vehigui’anou Lazémane Hazé’".</b></li>
+                                        <li>Nous les reunissons ensemble.<br /></li>
+                                    </ul>
+                                    Le loulav ne se fait pas le soir ou la nuit mais la journée.
+
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
