@@ -632,7 +632,7 @@ button svg {
 .picture-slide {
   margin-left: 2%;
   width: 60vw;
-  height: 80vh;
+  height: 85vh;
 }
 
 .image-slide {
@@ -643,7 +643,7 @@ button svg {
 .simanim-explanation {
   background-color: white;
   width: 60vw;
-  height: 80vh;
+  height: 85vh;
   margin-left: 3%;
   margin-right: 2%;
   display: flex;
@@ -693,16 +693,16 @@ button svg {
 }
 
 .card-intro-souccot {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  /* border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1); */
   width: 47vw;
   height: 100%;
   margin-left: 6%;
-  word-wrap: break-word;
+  /* word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
+  border-radius: .25rem; */
 }
 
 .titre-fete-Souccot {
@@ -761,17 +761,17 @@ button svg {
 }
 
 .rappel-historique{
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  /* border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1); */
   width: 45vw;
   height: 100%;
   margin-left: 2%;
-  margin-top: 8%;
-  word-wrap: break-word;
+  margin-top: 4.4%;
+  /* word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
+  border-radius: .25rem; */
 }
 
 .preparation-fete{
@@ -888,7 +888,7 @@ button svg {
 }
 
 .video-loulav-two{
-  margin-top: 25%;
+  margin-top: 20%;
   margin-left: 15%;
   border-radius: 10%;
 }

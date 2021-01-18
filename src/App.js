@@ -114,15 +114,14 @@ function App() {
           <ReactBootStrap.NavDropdown className="drop-list" title="Les Fetes" id="basic-nav-dropdown">
           <ReactBootStrap.NavDropdown.Divider />
             <p className="Drop-title">TICHRI</p>
-            <ReactBootStrap.NavDropdown.Divider />
             <Link className="navbar-li-drop" to="/RochHachana">Roch Hachana</Link>
             <Link className="navbar-li-drop" to="/Kippour">Kippour</Link>
             <Link className="navbar-li-drop" to="/Souccot">Souccot</Link>
             <ReactBootStrap.NavDropdown.Divider />
             <p className="Drop-title">CHESHVAN</p>
             <ReactBootStrap.NavDropdown.Divider />
+            <p className="Drop-title">KISLEV</p>
             <Link className="navbar-li-drop" to="/Hannoukah">Hannoukah </Link>
-            <Link className="navbar-li-drop" to="/Souccot">Souccot </Link>
           </ReactBootStrap.NavDropdown>
         </ReactBootStrap.Navbar>
         <Switch>
