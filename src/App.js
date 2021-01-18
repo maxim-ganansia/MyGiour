@@ -29,7 +29,7 @@ import QuizzKippour from "./Components/QuizzKippour"
 import Souccot from "./Components/Souccot"
 import QuizzSouccot from "./Components/QuizzSouccot"
 
-import Hannoukah from "./Components/Hannoukah"
+import Hannoukah from "./Components/Hanouka"
 import QuizzHannoukah from "./Components/QuizzHanoukkah"
 
 function App() {

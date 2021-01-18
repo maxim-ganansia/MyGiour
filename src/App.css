@@ -239,9 +239,9 @@ button svg {
 
 /* Fetes */
 
-.brahots-hannoukah {
+/* .brahots-hannoukah {
   width: 80%;
-}
+} */
 
 .photo-fete {
   width: 80vw;
@@ -761,17 +761,10 @@ button svg {
 }
 
 .rappel-historique{
-  /* border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1); */
   width: 45vw;
   height: 100%;
   margin-left: 2%;
   margin-top: 4.4%;
-  /* word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem; */
 }
 
 .preparation-fete{
@@ -936,6 +929,105 @@ flex-direction: row;
   margin-left: 3%;
   border-radius: 10%;
 }
+
+/* HANNOUKA */
+
+.div-fete-hanouka{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/Hanoukah.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.card-hanouka-one{
+  display: flex;
+  flex-direction: row;
+}
+
+.titre-fete-hanouka{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #033F5B;
+}
+
+.div-résumé-hanouka{
+  width: 45vw;
+  height: 100vh;
+  margin-left: 2%;
+  margin-top: 2%;
+  word-wrap: break-word;
+}
+
+.titre-resumé, .texte-fete-hanouka{
+  list-style: none;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.div-hanouka-two{
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  width: 80vw;
+  height: 100%;
+  margin-left: 10%;
+  margin-top: 5%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+
+.titre-lois-hanouka{
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #033F5B;
+}
+
+.liste-allumage{
+  list-style: square;
+}
+
+.titre-liste{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #033F5B;
+}
+
+.video-allumage-hanouka{
+  margin-left: 20%;
+  border-radius: 10%;
+}
+
+.div-hanouka-three{
+  display: flex;
+  flex-direction: row;
+  /* background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/Hanoukia.png);
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.div-coutumes-hanouka{
+  width: 40vw;
+  height: 100%;
+  margin-left: 5%;
+  word-wrap: break-word;
+}
+
+.video-song-hanouka{
+  border-radius: 10%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+
 
 /* Quizz */
 
