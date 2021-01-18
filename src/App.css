@@ -719,7 +719,7 @@ button svg {
 
 .video-souccot-what {
   margin-left: 4%;
-  margin-top: 10%;
+  margin-top: 2%;
   border-radius: 10%;
 }
 
@@ -729,7 +729,7 @@ button svg {
   width: 43vw;
   height: 30vh;
   margin-left: 4%;
-  margin-top: 15%;
+  margin-top: 10%;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -753,6 +753,39 @@ button svg {
 .text-vayikra, .text-historique {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+}
+
+.card-souccot-two{
+  display: flex;
+  flex-direction: row;
+}
+
+.rappel-historique{
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  width: 45vw;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: 8%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+
+.preparation-fete{
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  width: 45vw;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: -7%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
 }
 
 .card-souccot-three {
@@ -791,17 +824,10 @@ button svg {
 }
 
 .construction-text-div {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
   width: 40vw;
   height: 100%;
   margin-left: 2%;
   margin-top: 2%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
 }
 
 .construction-text {
@@ -848,17 +874,6 @@ button svg {
 .div-text-4especes{
   display: flex;
   flex-direction: row;
-  /* border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  width: 80vw;
-  height: 100%;
-  margin-left: 10%;
-  margin-top: 1%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem; */
 }
 
 .video-loulav{
@@ -882,6 +897,44 @@ button svg {
   margin-left: 11%;
   width: 40vw;
   margin-top: 7%;
+}
+
+.card-souccot-five{
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  width: 60vw;
+  height: 100%;
+  margin-left: 20%;
+  margin-top: 2%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+
+.video-children-song{
+  margin-top: 3%;
+  margin-left: 15%;
+  border-radius: 10%;
+}
+
+.card-souccot-six{
+display: flex;
+flex-direction: row;
+}
+
+.card-fetes-fin{
+  width: 45vw;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.video-simha-torah{
+  margin-top: 20%;
+  margin-left: 3%;
+  border-radius: 10%;
 }
 
 /* Quizz */

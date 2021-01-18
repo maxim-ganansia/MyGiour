@@ -27,6 +27,7 @@ import QuizzRochHachana from "./Components/QuizzRoshHashana"
 import Kippour from "./Components/Kippour"
 import QuizzKippour from "./Components/QuizzKippour"
 import Souccot from "./Components/Souccot"
+import QuizzSouccot from "./Components/QuizzSouccot"
 
 import Hannoukah from "./Components/Hannoukah"
 import QuizzHannoukah from "./Components/QuizzHanoukkah"
@@ -175,6 +176,7 @@ function App() {
           </Route>
           <Route path="/Souccot">
             <Souccot/>
+            <QuizzSouccot/>
           </Route>
 
           <Route path="/Hannoukah">
