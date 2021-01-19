@@ -28,9 +28,9 @@ import Kippour from "./Components/Kippour"
 import QuizzKippour from "./Components/QuizzKippour"
 import Souccot from "./Components/Souccot"
 import QuizzSouccot from "./Components/QuizzSouccot"
-
 import Hannoukah from "./Components/Hanouka"
-import QuizzHannoukah from "./Components/QuizzHanoukkah"
+import QuizzHannoukah from "./Components/QuizzHanouka"
+import TouBichvat from "./Components/TouBichvat"
 
 function App() {
   return (
@@ -49,7 +49,12 @@ function App() {
             <p className="Drop-title">CHESHVAN</p>
             <ReactBootStrap.NavDropdown.Divider />
             <p className="Drop-title">KISLEV</p>
-            <Link className="navbar-li-drop" to="/Hannoukah">Hannoukah </Link>
+            <Link className="navbar-li-drop" to="/Hannoukah">Hanouka </Link>
+            <ReactBootStrap.NavDropdown.Divider />
+            <p className="Drop-title">TEVET</p>
+            <ReactBootStrap.NavDropdown.Divider />
+            <p className="Drop-title">CHVAT</p>
+            <Link className="navbar-li-drop" to="/TouBichvat">Tou Bichvat </Link>
           </ReactBootStrap.NavDropdown>
           {/* <ReactBootStrap.NavDropdown className="drop-list" title="Les Parashiots" id="basic-nav-dropdown">
             <ReactBootStrap.NavDropdown.Divider />
@@ -143,6 +148,9 @@ function App() {
           <Route path="/Hannoukah">
             <Hannoukah />
             <QuizzHannoukah />
+          </Route>
+          <Route path="/TouBichvat">
+            <TouBichvat />
           </Route>
           {/* <Route path="/Bereshit">
             <Bereshit />

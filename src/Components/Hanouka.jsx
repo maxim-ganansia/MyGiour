@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css'
 import BrahotsHannoukah from "../Images/PrieresHannoukah.png"
-import PhotoHanoukah from "../Images/Hanoukah.jpg"
+import HanerotHalalou from "../Images/HanerotHalalou.png"
+import MaozTsour from "../Images/MaozTsour.png"
 
 class Hanoukah extends React.Component {
     render() {
@@ -70,18 +71,61 @@ class Hanoukah extends React.Component {
                 </div>
                 <div className="div-hanouka-three">
                     <div className="div-coutumes-hanouka">
-                        <h1 className="titre-resumé">Coutumes</h1>
-                        <ul className="texte-fete-hanouka">
-                            <li><h5 className="titre-liste">Hallel et Al Hanissim</h5></li><br/>
-                            <li><h5 className="titre-liste">Aliments frits dans huile</h5></li><br/>
-                            <li><h5 className="titre-liste">Toupies</h5></li><br/>
-                            <li><h5 className="titre-liste">Cadeaux</h5></li><br/>
-                        </ul>
+                        <h1 className="titre-div-coutumes">Coutumes</h1>
+                        <div className="first-div-coutumes">
+                            <div className="div-hallel-alHanissim">
+                                <h5 className="titre-coutumes">Louanges et remerciements</h5>
+                                <p className="texte-coutumes-hanouka">
+                                    Pendant la semaine de ‘Hanouka, nous exprimons notre joie et notre gratitude en
+                                    récitant dans la prière du matin le Hallel complet (louanges et remerciements),
+                                    ainsi que le passage 'Al Hanissim (récit descriptif de la victoire et remerciements)
+                                    dans les bénédictions récitées après le repas et dans la prière de la 'Amida (18
+                                    bénédictions). 
+                                </p>
+                            </div>
+                            <div className="div-huile">
+                                <h5 className="titre-coutumes">Les aliments spécifiques</h5>
+                                <p className="texte-coutumes-hanouka">
+                                    En souvenir du miracle de la fiole d’huile, nous avons également l’habitude de
+                                    consommer des aliments frits dans l’huile : des beignets de pommes de terre
+                                    (latkes) ou des beignets sucrés
+                                </p>
+                            </div>
+                        </div>
+                        <div className="second-div-coutumes">
+                            <div className="div-cadeaux">
+                                <h5 className="titre-coutumes">L'argent</h5>
+                                <p className="texte-coutumes-hanouka">
+                                    La tradition est de distribuer chaque jour de ‘Hanouka un peu d’argent aux
+                                    enfants, pour leur apprendre à donner une partie de leur gain (le Ma’asser) à la
+                                    Tsédaka (aide pour les nécessiteux).
+                                </p>
+                            </div>
+                            <div className="div-toupies">
+                                <h5 className="titre-coutumes">La Toupie</h5>
+                                <p className="texte-coutumes-hanouka">
+                                    Les enfants ont la coutume de jouer à la toupie après l’allumage des bougies, en
+                                    souvenir des enfants Juifs qui se cachaient pour étudier la Torah, et qui faisaient
+                                    semblant de jouer à la toupie lorsque des grecs arrivaient. Sur les toupies dans le monde
+                                    figurent les 4 lettres “Noun, Guimel, Hé, Chine”, pour illustrer la phrase “Ness
+                                    Gadol Haya Cham” (un grand miracle se produisit là-bas). Et sur les toupies en Israel
+                                    figurent les 4 lettres “Noun, Guimel, Hé, Pé”, pour illustrer la phrase “Ness
+                                    Gadol Haya Po” (un grand miracle se produisit ici).
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="test-video">
+                </div>
+                <div className="div-hanouka-four">
+                    <div className="les-priere">
+                        <h1 className="titre-brahots">Les Brahots :</h1>
+                        <img className="brahots-picture" src={BrahotsHannoukah}></img>
+                        <h1 className="titre-brahots">Hanérot Halalou :</h1>
+                        <img className="brahots-picture" src={HanerotHalalou}></img>
+                        <h1 className="titre-brahots">MaozTsour :</h1>
+                        <img className="brahots-picture" src={MaozTsour}></img>
                         <iframe className="video-song-hanouka" width="600" height="355" src="https://www.youtube.com/embed/S0gbvH_LqP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-
                 </div>
             </div>
         )
