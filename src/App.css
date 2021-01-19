@@ -1166,6 +1166,129 @@ button svg {
   color: #033F5B;
 }
 
+.card-touBichvat-one{
+  display: flex;
+  flex-direction: row;
+}
+
+.div-résumé-touBichvat{
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  width: 90vw;
+  height: 100vh;
+  margin-left: 5%;
+  margin-top: 2%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+
+.titre-resumé-touBichvat{
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #033F5B;
+}
+
+.texte-fete-touBichvat{
+  margin-left: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+}
+
+.div-coutume{
+  display: flex;
+  flex-direction: row;
+}
+
+.coutume{
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  width: 40vw;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 4%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+
+.video-explain-touBichvat{
+  margin-top: 3%;
+  margin-left: 5%;
+  border-radius: 10%;
+}
+
+.titre-coutume{
+  margin-left: 2%;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #033F5B;
+}
+
+.texte-coutume{
+  margin-left: 2%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+}
+
+.segoulot-fruits{
+  display: flex;
+  flex-direction: row;
+}
+
+.div-segoulot{
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+  width: 48vw;
+  height: 100%;
+  margin-left: 1%;
+  margin-top: -4%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+}
+
+.texte-segoulot{
+  margin-left: 1%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+}
+
+.titre-segoula{
+  list-style: square;
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #033F5B;
+}
+
+.div-seder-fruits{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid blue;
+  width: 48vw;
+  height: 40vh;
+  margin-left: 2%;
+  margin-top: 8%;
+}
+
+.seder-fruits{
+  border-radius: 5%;
+  width: 100%;
+}
+
 /* Quizz */
 
 .Content {
