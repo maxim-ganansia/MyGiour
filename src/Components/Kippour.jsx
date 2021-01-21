@@ -61,7 +61,7 @@ class Kippour extends React.Component {
                     <div className="div-four-fete">
                         <div className="div-video-kippour">
                             <iframe className="video-kippour" width="585" height="335" src="https://www.youtube.com/embed/ZE63Hb0vz4w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <iframe className="video-kippour" width="580" height="335" src="https://www.youtube.com/embed/NwPMpZS_QC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe className="video-kippour video-kippour-deux" width="580" height="335" src="https://www.youtube.com/embed/NwPMpZS_QC8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div className="card-interdits-fete">
                             <h1 className="titre-fete-kippour">Les interdits de Kippour</h1>
