@@ -246,9 +246,8 @@ class RochHachana extends React.Component {
         return (
             <>
                 <div className="div-fete-roshHashana">
-                    <h1 className="titre-fete-rosh">Rosh Hashana <i>1er et 2 Tichri</i> </h1>
                     <div className="card-intro-roshHashana">
-                        <h1 className="titre-fete-roshHashana">Rosh Hashana c'est quoi ?</h1>
+                        <h1 className="titre-fete-roshHashana">Rosh Hashana <i>1er et 2 Tichri</i><br/>C'est quoi ?</h1>
                         <p className="texte-fete"> Rosh Hashana est le <b>Nouvel An de l’homme :</b> Jour ou a été créé Adam Harishon et également jour ou il a fauté.<br />
                             Les avots (Abraham, Itshak, Yaakov) sont nés le jour de Rosh Hashana<br /><br />
 
@@ -269,7 +268,7 @@ class RochHachana extends React.Component {
                         <div className="div-video-text">
                             <iframe className="card-video-roshHashana" width="587" height="335" src="https://www.youtube.com/embed/vCYRM7KYJY4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <div className="card-priere-shoffar">
-                                <ul className="titre-list">Prière du Shoffar
+                                <ul className="titre-priere-shoffar">Prière du Shoffar
                                     <li className="point-list-shoffar">Baroukh Ata Ado-naï, Elo-hénou, Mélekh ha’olam, acher qidechanou bemitsvotav, vétsivanou lichmoa’ qol chofar (« Béni sois-Tu, Éternel, notre Dieu, Roi de l’univers, qui nous as sanctifiés par tes commandements et nous as ordonné d’écouter le son du chofar »</li>
                                     <li className="point-list-shoffar">Baroukh Ata…, chéhé’héyanou, véqiyemanou, véhigui’anou lazman hazé (« Bénis sois-Tu… qui nous as fait vivre, nous as maintenus et nous as fait parvenir à cette époque »</li>
                                 </ul>
@@ -278,9 +277,9 @@ class RochHachana extends React.Component {
                         </div>
                         <div className="card-mitsvah-roshHashana">
                             <h1 className="titre-fete-kippour">La Mitsvah</h1>
-                            <ul className="titre-list">
-                                <li className="point-list">Sonner le Shoffar</li>
-                                <li className="point-list">Ecouter le shoffar</li>
+                            <ul className="titre-list-mitsvah-shoffar">
+                                <li className="point-list-mitsvah">Sonner le Shoffar</li>
+                                <li className="point-list-mitsvah">Ecouter le shoffar</li>
                             </ul>
                             <p className="titre-list">10 Raisons pour lesquelles nous sonnons le Shoffar :
                                 <li className="point-list-shoffar">Rappel Création du monde</li>
@@ -304,14 +303,14 @@ class RochHachana extends React.Component {
                         </div>
                     </div>
                     <div className="div-trois-roshHashana">
-                        <div className="petite-card-roshHashana">
+                        <div className="petite-card-roshHashana-one">
                             <p className="titre-list-petit">Veille de Rosh Hachana</p>
                             <li className="point-list-veille">Atarat Nédarim (Annulation des voeux)</li>
                             <li className="point-list-veille">Aller Au cimetiere</li>
                             <li className="point-list-veille">Aller au Mikveh</li>
                             <p className="texte-fete"><br /></p>
                         </div>
-                        <div className="petite-card-roshHashana">
+                        <div className="petite-card-roshHashana-two">
                             <p className="titre-list-petit">Table du seder</p>
                             <li className="point-list-table">Grenade</li>
                             <li className="point-list-table">Pomme + Miel</li>
@@ -323,7 +322,7 @@ class RochHachana extends React.Component {
 
                             <p className="texte-fete"><br /></p>
                         </div>
-                        <div className="petite-card-roshHashana">
+                        <div className="petite-card-roshHashana-three">
                             <p className="titre-list-petit">1er jour de Rosh Hashana</p>
                             <li className="point-list-veille">On se lève tot (jour du jugement)</li>
                             <li className="point-list-veille">Tashlir (lors de Minha) on jette nos péchés</li>
