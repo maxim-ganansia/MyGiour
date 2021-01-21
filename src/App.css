@@ -468,14 +468,14 @@ button svg {
 /* ROSH HASHANA MOBILE */
 
 @media screen and (max-device-width: 640px) {
-  .second-div-fete{
+  .second-div-fete {
     flex-direction: column-reverse;
   }
-  .titre-fete-kippour{
+  .titre-fete-kippour {
     font-size: 33px;
     margin-bottom: 6%;
   }
-  .card-video-fete{
+  .card-video-fete {
     width: 95vw;
     height: 33vh;
     margin-top: 5%;
@@ -487,30 +487,43 @@ button svg {
     height: 100%;
     width: 96vw;
   }
-  .card-preparation-fete{
+  .card-preparation-fete {
     margin-top: 7%;
   }
-  .div-video-kippour{
-      flex-direction: column;
+  .div-video-kippour {
+    flex-direction: column;
   }
-  .video-kippour{
+  .video-kippour {
     width: 97vw;
     height: 31vh;
+    margin-bottom: -5%;
   }
-  .video-kippour-deux{
-    margin-top: 305%;
+  .video-kippour-deux {
+    margin-top: 215%;
   }
-  .card-interdits-fete{
-    margin-top: -355%;
+  .card-interdits-fete {
+    margin-top: -255%;
+    width: 98vw;
+    margin-left: 1%;
   }
-  .card-priere-fete{
-    margin-top: 65%;
+  .card-priere-fete {
+    margin-top: 71%;
   }
 }
 
 @media screen and (max-device-width: 400px) {
+  .card-interdits-fete {
+    margin-top: -320%;
+  }
+  .video-kippour-deux {
+    margin-top: 266%;
+  }
+  .card-priere-fete {
+    margin-top: 75%;
+    margin-left: 1%;
+    width: 98vw;
+  }
 }
-
 
 /* ROSH HASHANA DESKTOP*/
 

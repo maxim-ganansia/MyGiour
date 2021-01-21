@@ -6,7 +6,7 @@ class Kippour extends React.Component {
         return (
             <>
                 <div className="div-fete-kippour">
-                    <h1 className="titre-fete-kippour">Yom Kippour <i>10 Tichri</i> </h1>
+                    <h1 className="titre-fete-kippour">Yom Kippour <i><br/>10 Tichri</i> </h1>
                     <div className="first-div-fete">
                         <div className="card-intro-kippour">
                             <h1 className="titre-fete-kippour">Kippour c'est quoi ?</h1>
