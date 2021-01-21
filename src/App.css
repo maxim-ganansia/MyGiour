@@ -483,7 +483,7 @@ button svg {
   }
   .card-rappel-fete {
     margin-left: 2%;
-    margin-top: 32px;
+    margin-top: 20px;
     height: 100%;
     width: 96vw;
   }
@@ -1006,7 +1006,7 @@ button svg {
     box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
     width: 43vw;
     margin-left: 4%;
-    margin-top: 10%;
+    margin-top: 16%;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
@@ -1287,7 +1287,7 @@ button svg {
     border-radius: .25rem;
     width: 90vw;
     height: 100%;
-    margin-left: 6%;
+    margin-left: 5%;
   }
   .titre-fete-souccot {
     font-size: 30px;
@@ -1400,219 +1400,305 @@ button svg {
   }
 }
 
-/* HANNOUKA */
+/* HANNOUKA DESKTOP */
 
-.div-fete-hanouka {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: flex;
-  flex-direction: column;
-  background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/Hanoukah.jpg);
-  background-size: contain;
-  background-repeat: repeat;
+@media only screen and (max-device-width: 1800px) {
+  .div-fete-hanouka {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/Hanoukah.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .card-hanouka-one {
+    display: flex;
+    flex-direction: row;
+  }
+  .titre-fete-hanouka {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #033F5B;
+  }
+  .div-résumé-hanouka {
+    width: 45vw;
+    height: 100vh;
+    margin-left: 2%;
+    margin-top: 2%;
+    word-wrap: break-word;
+  }
+  .titre-resumé, .texte-fete-hanouka {
+    list-style: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  .div-hanouka-two {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    width: 80vw;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .titre-lois-hanouka {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #033F5B;
+  }
+  .liste-allumage {
+    list-style: square;
+  }
+  .titre-liste {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #033F5B;
+  }
+  .video-allumage-hanouka {
+    margin-left: 20%;
+    border-radius: 10%;
+  }
+  .div-hanouka-three {
+    display: flex;
+    flex-direction: row;
+  }
+  .div-coutumes-hanouka {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    width: 90vw;
+    height: 100vh;
+    margin-left: 5%;
+    margin-top: 1%;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/HanoukaCoutumes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titre-div-coutumes {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: #033F5B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .first-div-coutumes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+  }
+  .div-hallel-alHanissim {
+    opacity: 0.7;
+    background-color: white;
+    border-radius: 10%;
+    width: 30%;
+    height: 90%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+  .div-toupies {
+    opacity: 0.7;
+    background-color: white;
+    border-radius: 10%;
+    width: 30%;
+    height: 125%;
+    margin-left: 12%;
+    margin-top: -4%;
+  }
+  .div-huile {
+    opacity: 0.7;
+    background-color: white;
+    border-radius: 10%;
+    width: 30%;
+    height: 60%;
+    margin-left: 8%;
+    margin-top: 0%;
+  }
+  .div-cadeaux {
+    opacity: 0.7;
+    background-color: white;
+    border-radius: 10%;
+    width: 30%;
+    height: 65%;
+    margin-left: 18%;
+    margin-top: 5%;
+  }
+  .second-div-coutumes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 100%;
+    height: 40%;
+  }
+  .titre-coutumes {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #033F5B;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .texte-coutumes-hanouka {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .div-hanouka-four {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80vw;
+    height: 100%;
+    margin-bottom: 2%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .brahots-picture {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .titre-brahots {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: #033F5B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .video-song-hanouka {
+    border-radius: 10%;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
 }
 
-.card-hanouka-one {
-  display: flex;
-  flex-direction: row;
+/* HANOUKA TABLETS */
+
+@media only screen and (max-device-width: 1024px) {}
+
+/* HANOUKA MOBILE */
+
+@media screen and (max-device-width: 640px) {
+  .titre-fete-hanouka {
+    font-size: 40px;
+    width: 50vw;
+  }
+  .div-résumé-hanouka {
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    height: 100%;
+    margin-bottom: 2%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 84vw;
+  }
+  .titre-resumé {
+    color: black;
+    font-size: 30px;
+  }
+  .texte-fete-hanouka {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .div-hanouka-two {
+    margin-left: 4%;
+  }
+  .video-allumage-hanouka {
+    margin-left: 2%;
+    width: 77vw;
+    height: 31vh;
+  }
+  .div-coutumes-hanouka {
+    width: 80vw;
+    height: 140vh;
+    margin-left: 4%;
+  }
+  .first-div-coutumes {
+    flex-direction: column;
+  }
+  .second-div-coutumes {
+    flex-direction: column;
+  }
+  .div-hallel-alHanissim {
+    width: 75vw;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: 0%;
+  }
+  .div-huile{
+    width: 75vw;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+  .div-cadeaux{
+    width: 75vw;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: -1%;
+  }
+  .div-toupies{
+    width: 75vw;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+  .div-hanouka-four {
+    margin-left: 3%;
+    width: 82vw;
+  }
+  .titre-brahots {
+    font-size: 30px;
+  }
+  .video-song-hanouka{
+    width: 80vw;
+    height: 26vh;
+    margin-left: 1%;
+  }
 }
 
-.titre-fete-hanouka {
-  font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  color: #033F5B;
-}
-
-.div-résumé-hanouka {
-  width: 45vw;
-  height: 100vh;
-  margin-left: 2%;
-  margin-top: 2%;
-  word-wrap: break-word;
-}
-
-.titre-resumé, .texte-fete-hanouka {
-  list-style: none;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
-}
-
-.div-hanouka-two {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  width: 80vw;
-  height: 100%;
-  margin-left: 10%;
-  margin-top: 5%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-}
-
-.titre-lois-hanouka {
-  text-align: center;
-  font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  color: #033F5B;
-}
-
-.liste-allumage {
-  list-style: square;
-}
-
-.titre-liste {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 30px;
-  color: #033F5B;
-}
-
-.video-allumage-hanouka {
-  margin-left: 20%;
-  border-radius: 10%;
-}
-
-.div-hanouka-three {
-  display: flex;
-  flex-direction: row;
-}
-
-.div-coutumes-hanouka {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  width: 90vw;
-  height: 100vh;
-  margin-left: 5%;
-  margin-top: 1%;
-  word-wrap: break-word;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-  background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/HanoukaCoutumes.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.titre-div-coutumes {
-  text-align: left;
-  font-size: 50px;
-  font-weight: bold;
-  margin-left: 5%;
-  color: #033F5B;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.first-div-coutumes {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 40%;
-}
-
-.div-hallel-alHanissim {
-  opacity: 0.7;
-  background-color: white;
-  border-radius: 10%;
-  width: 30%;
-  height: 90%;
-  margin-left: 10%;
-  margin-top: 3%;
-}
-
-.div-toupies {
-  opacity: 0.7;
-  background-color: white;
-  border-radius: 10%;
-  width: 30%;
-  height: 125%;
-  margin-left: 12%;
-  margin-top: -4%;
-}
-
-.div-huile {
-  opacity: 0.7;
-  background-color: white;
-  border-radius: 10%;
-  width: 30%;
-  height: 60%;
-  margin-left: 8%;
-  margin-top: 0%;
-}
-
-.div-cadeaux {
-  opacity: 0.7;
-  background-color: white;
-  border-radius: 10%;
-  width: 30%;
-  height: 65%;
-  margin-left: 18%;
-  margin-top: 5%;
-}
-
-.second-div-coutumes {
-  display: flex;
-  flex-direction: row;
-  margin-top: 2%;
-  width: 100%;
-  height: 40%;
-}
-
-.titre-coutumes {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  color: #033F5B;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 2%;
-}
-
-.texte-coutumes-hanouka {
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-}
-
-.div-hanouka-four {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  margin-left: 10%;
-  margin-top: 5%;
-  width: 80vw;
-  height: 100%;
-  margin-bottom: 2%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-}
-
-.brahots-picture {
-  width: 100%;
-  margin-bottom: 2%;
-}
-
-.titre-brahots {
-  text-align: left;
-  font-size: 50px;
-  font-weight: bold;
-  margin-left: 5%;
-  color: #033F5B;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.video-song-hanouka {
-  border-radius: 10%;
-  margin-left: 20%;
-  margin-top: 2%;
+@media screen and (max-device-width: 400px) {
+  .titre-fete-hanouka {
+    font-size: 35px;
+    width: 50vw;
+  }
+  .video-allumage-hanouka {
+    height: 29vh;
+  }
+  .div-cadeaux {
+    width: 75vw;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: 16%;
+  }
 }
 
 /* TOU BICHVAT */
