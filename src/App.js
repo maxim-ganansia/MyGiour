@@ -8,6 +8,9 @@ import {
   Link
 } from "react-router-dom";
 
+import React, { useState, useEffect } from 'react'
+
+
 import HomePage from "./Components/HomePage"
 import Bereshit from "./Components/Bereshit"
 import Noah from "./Components/Noah"

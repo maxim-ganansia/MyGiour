@@ -433,311 +433,310 @@ button svg {
 
 /* Rosh Hashana */
 
-.div-fete-roshHashana {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: flex;
-  flex-direction: column;
-  background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/BackgroundRosh.jpg);
-  background-size: contain;
-  background-repeat: repeat;
+@media only screen and (max-device-width: 1800px) {
+  .div-fete-roshHashana {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/BackgroundRosh.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .card-intro-roshHashana {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .titre-fete-rosh {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #033F5B;
+  }
+  .titre-fete-roshHashana {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #033F5B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .second-div-roshHashana {
+    display: flex;
+    flex-direction: row;
+  }
+  .card-video-roshHashana {
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 10%;
+  }
+  .div-video-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+  }
+  .video-rosh-un {
+    margin-left: 25%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+  }
+  .photo-shoffar {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10%;
+  }
+  .card-mitsvah-roshHashana {
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 1%;
+    width: 40vw;
+    height: 100%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .card-priere-shoffar {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 45vw;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .titre-list {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1%;
+    color: #627ae4;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .titre-priere-shoffar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #627ae4;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .point-list-mitsvah {
+    list-style: none;
+    margin-left: 1%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #033F5B;
+  }
+  .titre-list-petit {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #627ae4;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  .point-list {
+    list-style: none;
+    margin-left: 1%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #033F5B;
+  }
+  .point-list-shoffar {
+    font-weight: lighter;
+    list-style: square;
+    margin-left: 1%;
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .point-list-table {
+    font-weight: lighter;
+    list-style: square;
+    margin-left: 1%;
+    color: black;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .point-list-veille {
+    font-weight: lighter;
+    margin-top: 4%;
+    list-style: square;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .div-trois-roshHashana {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .petite-card-roshHashana-one {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: -2%;
+    width: 30vw;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .petite-card-roshHashana-two {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: -2%;
+    width: 30vw;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .petite-card-roshHashana-three {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: -2%;
+    width: 30vw;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .titre-seder-roshHashana {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #627ae4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .div-image-slide {
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    margin-top: 1.3%;
+    display: flex;
+    flex-direction: row;
+  }
+  .picture-slide {
+    margin-left: 2%;
+    width: 60vw;
+    height: 85vh;
+  }
+  .image-slide {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+  }
+  .simanim-explanation {
+    background-color: white;
+    width: 60vw;
+    height: 85vh;
+    margin-left: 3%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+  }
+  .title-slide {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #627ae4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .text-slide {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+  }
 }
 
-.card-intro-roshHashana {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  width: 90vw;
-  height: 100%;
-  margin-left: 5%;
-  margin-top: 2%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
+/* ROSH HASHANA TABLETS */
+
+@media only screen and (max-device-width: 1024px) {
+  .video-rosh-un {
+    margin-left: 21%;
+  }
+  .second-div-roshHashana {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-video-roshHashana {
+    margin-left: 21%;
+    width: 60%;
+  }
+  .card-priere-shoffar{
+    margin-left: 9%;
+    margin-top: 4%;
+    width: 76vw;
+  }
+  .card-mitsvah-roshHashana{
+    width: 84vw;
+  }
+  .div-trois-roshHashana{
+    margin-left: 1%;
+  }
+  .picture-slide {
+    height: 46vh;
+  }
+  .simanim-explanation{
+    height: 46vh;
+  }
+  .div-image-slide{
+    height: 50vh;
+  }
 }
 
-.titre-fete-rosh {
-  text-align: center;
-  font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  color: #033F5B;
-}
+/* ROSH HASHANA MOBILE */
 
-.titre-fete-roshHashana {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: #033F5B;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.second-div-roshHashana {
-  display: flex;
-  flex-direction: row;
-}
-
-.card-video-roshHashana {
-  margin-top: 4%;
-  margin-left: 5%;
-  border-radius: 10%;
-}
-
-.div-video-text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 3%;
-}
-
-.video-rosh-un {
-  margin-left: 25%;
-  margin-bottom: 2%;
-  border-radius: 10%;
-}
-
-.photo-shoffar {
-  width: 50%;
-  margin-left: 25%;
-  border-radius: 10%;
-}
-
-.card-mitsvah-roshHashana {
-  text-align: left;
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  margin-left: 8%;
-  margin-top: 1%;
-  width: 40vw;
-  height: 100%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-}
-
-.card-priere-shoffar {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  margin-left: 5%;
-  margin-top: 8%;
-  width: 45vw;
-  height: 55vh;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.titre-list {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-left: 1%;
-  color: #627ae4;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 2%;
-}
-
-.titre-priere-shoffar {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #627ae4;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.point-list-mitsvah {
-  list-style: none;
-  margin-left: 1%;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: #033F5B;
-}
-
-/* .titre-list-mitsvah-shoffar{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #627ae4;
-  font-size: 20px;
-  font-weight: bold;
-} */
-
-.titre-list-petit {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  color: #627ae4;
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 5%;
-}
-
-.point-list {
-  list-style: none;
-  margin-left: 1%;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: #033F5B;
-}
-
-.point-list-shoffar {
-  font-weight: lighter;
-  list-style: square;
-  margin-left: 1%;
-  color: black;
-  font-size: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.point-list-table {
-  font-weight: lighter;
-  list-style: square;
-  margin-left: 1%;
-  color: black;
-  font-size: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.point-list-veille {
-  font-weight: lighter;
-  margin-top: 4%;
-  list-style: square;
-  text-align: center;
-  color: black;
-  font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.div-trois-roshHashana {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 5%;
-}
-
-.petite-card-roshHashana-one {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  margin-left: 2%;
-  margin-top: 2%;
-  margin-bottom: -2%;
-  width: 30vw;
-  height: 35vh;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.petite-card-roshHashana-two {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  margin-left: 2%;
-  margin-top: 2%;
-  margin-bottom: -2%;
-  width: 30vw;
-  height: 35vh;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.petite-card-roshHashana-three {
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  display: flex;
-  flex-direction: column;
-  margin-left: 2%;
-  margin-top: 2%;
-  margin-bottom: -2%;
-  width: 30vw;
-  height: 35vh;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.titre-seder-roshHashana {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  color: #627ae4;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 2%;
-}
-
-.div-image-slide {
-  width: 100vw;
-  height: 90vh;
-  align-items: center;
-  margin-top: 1.3%;
-  display: flex;
-  flex-direction: row;
-}
-
-.picture-slide {
-  margin-left: 2%;
-  width: 60vw;
-  height: 85vh;
-}
-
-.image-slide {
-  width: 100%;
-  height: 100%;
-  border-radius: 10%;
-}
-
-.simanim-explanation {
-  background-color: white;
-  width: 60vw;
-  height: 85vh;
-  margin-left: 3%;
-  margin-right: 2%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10%;
-}
-
-.title-slide {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  color: #627ae4;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 2%;
-}
-
-.text-slide {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  color: black;
-  font-size: 15px;
-}
-
-@media only screen and (max-device-width: 450px) {
-  /* ROSH HASHANA */
+@media screen and (max-device-width: 640px) {
   .div-fete-roshHashana {
     width: 100%;
   }
@@ -765,7 +764,7 @@ button svg {
     width: 100%;
     margin-left: 6%;
     margin-bottom: 2%;
-    margin-top: 110%;
+    margin-top: 107%;
     border-radius: 10%;
     width: 94vw;
     height: 28vh;
@@ -784,9 +783,10 @@ button svg {
     text-align: center;
   }
   .card-priere-shoffar {
-    WIDTH: 96vw;
+    margin-left: 5%;
+    width: 96vw;
     height: 100%;
-    margin-top: -167%;
+    margin-top: -148%;
     margin-bottom: 33vh;
   }
   .point-list-shoffar {
@@ -798,6 +798,7 @@ button svg {
   .div-trois-roshHashana {
     margin-top: -82%;
     flex-direction: column;
+    margin-top: -64%;
   }
   .point-list-mitsvah {
     margin-left: -9%;
@@ -812,7 +813,7 @@ button svg {
   }
   .petite-card-roshHashana-three {
     width: 46vw;
-    margin-top: -20%;
+    margin-top: -12%;
   }
   .titre-list-petit {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -831,9 +832,9 @@ button svg {
   }
   .picture-slide {
     width: 98vw;
+    height: 65vh;
     margin-left: -0.5%;
   }
-
   .text-slide {
     font-size: 14px;
   }
@@ -842,8 +843,18 @@ button svg {
   }
   .simanim-explanation {
     width: 98vw;
-    height: 90vh;
+    height: 100%;
     margin-left: 2%;
+  }
+}
+
+@media screen and (max-device-width: 400px) {
+  .card-priere-shoffar {
+    margin-top: -166%;
+    margin-left: 5%;
+  }
+  .div-trois-roshHashana {
+    margin-top: -81%;
   }
 }
 
