@@ -1595,7 +1595,52 @@ button svg {
 
 /* HANOUKA TABLETS */
 
-@media only screen and (max-device-width: 1024px) {}
+@media only screen and (max-device-width: 1024px) {
+  .div-résumé-hanouka {
+    width: 45vw;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .titre-resumé {
+    color: black;
+    font-size: 30px;
+  }
+  .texte-fete-hanouka {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .div-hanouka-two {
+    width: 90vw;
+    margin-left: 5%;
+  }
+  .video-allumage-hanouka {
+    margin-left: 15%;
+  }
+  .first-div-coutumes {
+    height: 26%;
+  }
+  .second-div-coutumes {
+    height: 23%;
+    margin-bottom: 2%;
+  }
+  .div-coutumes-hanouka {
+    height: 100%;
+  }
+  .div-hanouka-four {
+    width: 90vw;
+    margin-left: 5%;
+  }
+  .video-song-hanouka {
+    margin-left: 15%;
+  }
+}
 
 /* HANOUKA MOBILE */
 
@@ -1617,7 +1662,8 @@ button svg {
     border-radius: .25rem;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 84vw;
+    width: 90vw;
+    margin-left: 5%;
   }
   .titre-resumé {
     color: black;
@@ -1629,17 +1675,19 @@ button svg {
     color: black;
   }
   .div-hanouka-two {
-    margin-left: 4%;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 2%;
   }
   .video-allumage-hanouka {
-    margin-left: 2%;
-    width: 77vw;
+    margin-left: 1%;
+    width: 88vw;
     height: 31vh;
   }
   .div-coutumes-hanouka {
-    width: 80vw;
-    height: 140vh;
-    margin-left: 4%;
+    width: 90vw;
+    height: 129vh;
+    margin-left: 5%;
   }
   .first-div-coutumes {
     flex-direction: column;
@@ -1648,38 +1696,38 @@ button svg {
     flex-direction: column;
   }
   .div-hallel-alHanissim {
-    width: 75vw;
+    width: 86vw;
     height: 90%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 0%;
   }
   .div-huile{
-    width: 75vw;
+    width: 86vw;
     height: 90%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 1%;
   }
   .div-cadeaux{
-    width: 75vw;
+    width: 86vw;
     height: 90%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: -1%;
   }
   .div-toupies{
-    width: 75vw;
+    width: 86vw;
     height: 90%;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 1%;
   }
   .div-hanouka-four {
-    margin-left: 3%;
-    width: 82vw;
+    margin-left: 5%;
+    width: 90vw;
   }
   .titre-brahots {
     font-size: 30px;
   }
-  .video-song-hanouka{
-    width: 80vw;
+  .video-song-hanouka {
+    width: 88vw;
     height: 26vh;
     margin-left: 1%;
   }
@@ -1692,12 +1740,6 @@ button svg {
   }
   .video-allumage-hanouka {
     height: 29vh;
-  }
-  .div-cadeaux {
-    width: 75vw;
-    height: 90%;
-    margin-left: 3%;
-    margin-top: 16%;
   }
 }
 
