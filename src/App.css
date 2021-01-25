@@ -1701,19 +1701,19 @@ button svg {
     margin-left: 2%;
     margin-top: 0%;
   }
-  .div-huile{
+  .div-huile {
     width: 86vw;
     height: 90%;
     margin-left: 2%;
     margin-top: 1%;
   }
-  .div-cadeaux{
+  .div-cadeaux {
     width: 86vw;
     height: 90%;
     margin-left: 2%;
     margin-top: -1%;
   }
-  .div-toupies{
+  .div-toupies {
     width: 86vw;
     height: 90%;
     margin-left: 2%;
@@ -1745,143 +1745,344 @@ button svg {
 
 /* TOU BICHVAT */
 
-.div-fete-touBichvat {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: flex;
-  flex-direction: column;
-  background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/TouBichvat.jpg);
-  background-size: contain;
-  background-repeat: repeat;
+@media only screen and (max-device-width: 1800px) {
+  .div-fete-touBichvat {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/TouBichvat.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .titre-fete-touBichvat {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #033F5B;
+  }
+  .card-touBichvat-one {
+    display: flex;
+    flex-direction: row;
+  }
+  .div-résumé-touBichvat {
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    width: 90vw;
+    height: 100vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .titre-resumé-touBichvat {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #033F5B;
+  }
+  .texte-fete-touBichvat {
+    margin-left: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .div-coutume {
+    display: flex;
+    flex-direction: row;
+  }
+  .coutume {
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    width: 40vw;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 4%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .video-explain-touBichvat {
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 10%;
+  }
+  .titre-coutume {
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #033F5B;
+  }
+  .texte-coutume {
+    margin-left: 2%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .segoulot-fruits {
+    display: flex;
+    flex-direction: row;
+  }
+  .div-segoulot {
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    width: 48vw;
+    height: 100%;
+    margin-left: 1%;
+    margin-top: -4%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .texte-segoulot {
+    margin-left: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+  .titre-segoula {
+    list-style: square;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #033F5B;
+  }
+  .div-seder-fruits {
+    display: flex;
+    flex-direction: column;
+    width: 48vw;
+    height: 40vh;
+    margin-left: 2%;
+    margin-top: 8%;
+  }
+  .seder-fruits {
+    border-radius: 5%;
+    width: 100%;
+  }
 }
 
-.titre-fete-touBichvat {
-  font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  color: #033F5B;
+/* TOU BICHVAT TABLET */
+
+@media only screen and (max-device-width: 1024px) {
+  .div-résumé-touBichvat {
+    height: 58vh;
+  }
+  .video-explain-touBichvat {
+    margin-left: 1%;
+    width: 47%;
+    margin-top: 10%;
+  }
+  .coutume {
+    margin-left: 1%;
+    width: 50%;
+  }
+  .div-segoulot {
+    margin-top: 2%;
+    width: 98%;
+  }
+  .segoulot-fruits {
+    flex-direction: column;
+  }
+  .div-seder-fruits {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    height: 100%;
+    margin-left: 1%;
+    margin-top: 8%;
+  }
 }
 
-.card-touBichvat-one {
-  display: flex;
-  flex-direction: row;
+/* TOU BICHVAT MOBILE */
+
+@media screen and (max-device-width: 640px) {
+  .div-résumé-touBichvat {
+    height: 100%;
+    width: 98%;
+    margin-left: 1%;
+  }
+  .div-coutume {
+    flex-direction: column;
+  }
+  .video-explain-touBichvat {
+    margin-left: 1%;
+    width: 55vh;
+    height: 31vh;
+    margin-top: 2%;
+  }
+  .coutume {
+    margin-left: 1%;
+    width: 98vw;
+  }
+  .div-seder-fruits {
+    margin-top: 2%;
+  }
+  .second-div-coutumes {
+    margin-top: 36%;
+  }
+  .div-toupies {
+    width: 86vw;
+    height: 155%;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+  .div-coutumes-hanouka {
+    height: 123vh;
+  }
 }
 
-.div-résumé-touBichvat {
-  opacity: 0.9;
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  width: 90vw;
-  height: 100vh;
-  margin-left: 5%;
-  margin-top: 2%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
+@media screen and (max-device-width: 400px) {
+  .video-explain-touBichvat {
+    margin-left: 1.4%;
+    width: 45vh;
+    height: 24vh;
+    margin-top: 2%;
+  }
+  .second-div-coutumes {
+    margin-top: 45%;
+  }
+  .div-toupies {
+    width: 86vw;
+    height: 150%;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+  .div-coutumes-hanouka {
+    height: 123vh;
+  }
 }
 
-.titre-resumé-touBichvat {
-  text-align: center;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #033F5B;
+/* POURIM DESKTOP */
+
+@media only screen and (max-device-width: 1800px) {
+  .div-fete-pourim {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Users/maxim-ilangnansia/Desktop/MyWebsites/MyGiour/my-giour/src/Images/Pourim.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .titre-fete-pourim {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #033F5B;
+  }
+  .card-intro-pourim {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 3%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .jeune-esther {
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    width: 98vw;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+  }
+  .titre-fete-pourim-jeune {
+    margin-left: 2%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2%;
+    color: #033F5B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .titre-fete-pourim-two {
+    margin-left: 2%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 2%;
+    color: #033F5B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .texte-fete-pourim {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .third-div-fete {
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .card-mitsvot-fete {
+    display: flex;
+    flex-direction: column
+  }
+  .titre-mitsvot-pourim {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2%;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .photo-mitsvots {
+    margin-left: 5%;
+  }
+  .mahatsit-hashekel {
+    margin-left: 3%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 30vw;
+  }
+  .mahatsit-hashekel-picture {
+    width: 40%;
+    margin-left: 28%;
+  }
+  .titre-fete-pourim-mitsvot{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2%;
+    color: #033F5B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .texte-fete-mitsvot{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
 }
 
-.texte-fete-touBichvat {
-  margin-left: 2%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-}
+/* POURIM TABLET */
 
-.div-coutume {
-  display: flex;
-  flex-direction: row;
-}
+@media only screen and (max-device-width: 1024px) {}
 
-.coutume {
-  opacity: 0.9;
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  width: 40vw;
-  height: 100%;
-  margin-left: 5%;
-  margin-top: 4%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-}
+/* POURIM MOBILE */
 
-.video-explain-touBichvat {
-  margin-top: 3%;
-  margin-left: 5%;
-  border-radius: 10%;
-}
+@media screen and (max-device-width: 640px) {}
 
-.titre-coutume {
-  margin-left: 2%;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #033F5B;
-}
-
-.texte-coutume {
-  margin-left: 2%;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-}
-
-.segoulot-fruits {
-  display: flex;
-  flex-direction: row;
-}
-
-.div-segoulot {
-  opacity: 0.9;
-  border-radius: 10px;
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
-  width: 48vw;
-  height: 100%;
-  margin-left: 1%;
-  margin-top: -4%;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, .125);
-  border-radius: .25rem;
-}
-
-.texte-segoulot {
-  margin-left: 1%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-}
-
-.titre-segoula {
-  list-style: square;
-  text-align: left;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #033F5B;
-}
-
-.div-seder-fruits {
-  display: flex;
-  flex-direction: column;
-  width: 48vw;
-  height: 40vh;
-  margin-left: 2%;
-  margin-top: 8%;
-}
-
-.seder-fruits {
-  border-radius: 5%;
-  width: 100%;
-}
+@media screen and (max-device-width: 400px) {}
 
 /* Quizz */
 

@@ -34,6 +34,7 @@ import QuizzSouccot from "./Components/QuizzSouccot"
 import Hannoukah from "./Components/Hanouka"
 import QuizzHannoukah from "./Components/QuizzHanouka"
 import TouBichvat from "./Components/TouBichvat"
+import Pourim from "./Components/Pourim"
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
             <ReactBootStrap.NavDropdown.Divider />
             <p className="Drop-title">CHVAT</p>
             <Link className="navbar-li-drop" to="/TouBichvat">Tou Bichvat </Link>
+            <ReactBootStrap.NavDropdown.Divider />
+            <p className="Drop-title">Adar</p>
+            <Link className="navbar-li-drop" to="/Pourim">Pourim </Link>
           </ReactBootStrap.NavDropdown>
           {/* <ReactBootStrap.NavDropdown className="drop-list" title="Les Parashiots" id="basic-nav-dropdown">
             <ReactBootStrap.NavDropdown.Divider />
@@ -154,6 +158,9 @@ function App() {
           </Route>
           <Route path="/TouBichvat">
             <TouBichvat />
+          </Route>
+          <Route path="/Pourim">
+            <Pourim />
           </Route>
           {/* <Route path="/Bereshit">
             <Bereshit />
