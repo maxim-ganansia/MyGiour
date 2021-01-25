@@ -1982,20 +1982,28 @@ button svg {
     box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 95vw;
     height: 100%;
     margin-top: 1%;
-    margin-left: 3%;
+    margin-left: 2.3%;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
   }
+  .video-pourim-what {
+    margin-bottom: 2%;
+    border-radius: 10%;
+  }
   .jeune-esther {
     border-radius: 10px;
     box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
     width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 1%;
     margin-top: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -2026,8 +2034,12 @@ button svg {
     margin-left: 2%;
     margin-right: 2%;
   }
+  .video-pourim-jeune{
+    margin-bottom: 2%;
+    border-radius: 10%;
+  }
   .third-div-fete {
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 5%;
   }
   .card-mitsvot-fete {
@@ -2036,6 +2048,8 @@ button svg {
   }
   .titre-mitsvot-pourim {
     text-align: center;
+    /* background-color: white;
+    width: 100%; */
     font-size: 40px;
     font-weight: bold;
     margin-top: 2%;
@@ -2045,10 +2059,14 @@ button svg {
   .photo-mitsvots {
     margin-left: 5%;
   }
+
   .mahatsit-hashekel {
     margin-left: 3%;
     border-radius: 10px;
     box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
@@ -2058,9 +2076,80 @@ button svg {
   }
   .mahatsit-hashekel-picture {
     width: 40%;
-    margin-left: 28%;
   }
-  .titre-fete-pourim-mitsvot{
+  .lecture-meguila{
+    margin-left: 35%;
+    margin-top: -28%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 30vw;
+  }
+  .meguilat-esther-picture{
+    width: 50%;
+  }
+  .matanot-laevyonim{
+    margin-left: 67%;
+    margin-top: -43%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 30vw;
+  }
+  .matanot-laevyonim-picture{
+    width: 50%;
+  }
+  .mishloah-manot{
+    margin-left: 1%;
+    margin-top: 3%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 30vw;
+  }
+  .mishloah-manot-picture{
+    width: 50%;
+  }
+  .michté{
+    margin-left: 69%;
+    margin-top: -36.5%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 30vw;
+  }
+  .michté-picture{
+    width: 50%;
+  }
+  .titre-fete-pourim-mitsvot {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -2068,21 +2157,88 @@ button svg {
     color: #033F5B;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  .texte-fete-mitsvot{
+  .texte-fete-mitsvot {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+  }
+  .video-pourim-music{
+    margin-left: 33%;
+    margin-top: -30%;
   }
 }
 
 /* POURIM TABLET */
 
-@media only screen and (max-device-width: 1024px) {}
+@media only screen and (max-device-width: 1024px) {
+  .card-mitsvot-fete {
+    display: flex;
+    flex-direction: column;
+  }
+  .mahatsit-hashekel {
+    margin-left: 2%;
+    height: 100%;
+    width: 30vw;
+  }
+  .lecture-meguila{
+    margin-left: 35%;
+    margin-top: -15%;
+    height: 100%;
+    width: 30vw;
+  }
+  .matanot-laevyonim{
+    margin-left: 68%;
+    margin-top: -80%;
+    height: 100%;
+    width: 30vw;
+  }
+  .mishloah-manot{
+    margin-left: 2%;
+    margin-top: -5%;
+  }
+  .michté{
+    margin-left: 68%;
+    margin-top: -42%;
+  }
+  .video-pourim-music{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90vw;
+    height: 40vh;
+  }
+
+
+}
 
 /* POURIM MOBILE */
 
-@media screen and (max-device-width: 640px) {}
-
-@media screen and (max-device-width: 400px) {}
+@media screen and (max-device-width: 640px) {
+  .video-pourim-what{
+    width: 95%;
+  }
+  .video-pourim-jeune{
+    width: 95%;
+  }
+  .titre-fete-pourim {
+    font-size: 30px;
+  }
+  .titre-fete-pourim-two{
+    font-size: 30px;
+  }
+  .titre-fete-pourim-jeune{
+    font-size: 20px;
+  }
+  .mahatsit-hashekel {
+    margin-left: 2%;
+    height: 100%;
+    width: 95vw;
+  }
+  .lecture-meguila, .matanot-laevyonim, .mishloah-manot, .michté{
+    margin-left: 2%;
+    margin-top: 1%;
+    height: 100%;
+    width: 95vw;
+  }
+}
 
 /* Quizz */
 

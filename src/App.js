@@ -35,6 +35,7 @@ import Hannoukah from "./Components/Hanouka"
 import QuizzHannoukah from "./Components/QuizzHanouka"
 import TouBichvat from "./Components/TouBichvat"
 import Pourim from "./Components/Pourim"
+import QuizzPourim from "./Components/QuizzPourim"
 
 function App() {
   return (
@@ -161,6 +162,7 @@ function App() {
           </Route>
           <Route path="/Pourim">
             <Pourim />
+            <QuizzPourim/>
           </Route>
           {/* <Route path="/Bereshit">
             <Bereshit />
